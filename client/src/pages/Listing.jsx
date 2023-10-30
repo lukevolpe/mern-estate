@@ -117,13 +117,13 @@ export default function Listing() {
                 <FaBed className="text-lg" />
                 {listing.bedrooms > 1
                   ? `${listing.bedrooms} beds`
-                  : `${listing / bedrooms} bed`}
+                  : `${listing.bedrooms} bed`}
               </li>
               <li className="flex items-center gap-1 whitespace-nowrap">
                 <FaBath className="text-lg" />
                 {listing.bathrooms > 1
                   ? `${listing.bathrooms} baths`
-                  : `${listing / bathrooms} bath`}
+                  : `${listing.bathrooms} bath`}
               </li>
               <li className="flex items-center gap-1 whitespace-nowrap">
                 <FaParking className="text-lg" />
@@ -135,11 +135,14 @@ export default function Listing() {
               </li>
             </ul>
             {currentUser && listing.userRef !== currentUser._id && !contact && (
-              <button onClick={()=>setContact(true)} className="bg-slate-700 text-white rounded-lg uppercase hover:opacity-95 p-3">
+              <button
+                onClick={() => setContact(true)}
+                className="bg-slate-700 text-white rounded-lg uppercase hover:opacity-95 p-3"
+              >
                 Contact landlord
               </button>
             )}
-            {contact && <Contact listing={listing}/>}
+            {contact && <Contact listing={listing} />}
           </div>
         </div>
       )}
