@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="text-slate-800 text-3xl font-bold mb-4">
         About Fox Estate
       </h1>
-      <h2 className="text-slate-800 text-2xl font-semibold">About Fox Estate - Your Premier Online Property Marketplace</h2>
+      <h2 className="text-slate-800 text-2xl font-semibold mt-6">About Fox Estate - Your Premier Online Property Marketplace</h2>
       <p className="text-slate-700 my-2">
         Welcome to Fox Estate, your one-stop destination for all your real
         estate needs. Whether you're buying, selling, renting, or investing in
@@ -16,7 +16,7 @@ export default function About() {
         ensuring that every step of your real estate journey is a smooth and
         rewarding experience.
       </p>
-      <h2 className="text-slate-800 text-2xl font-semibold ">Our Story</h2>
+      <h2 className="text-slate-800 text-2xl font-semibold mt-6">Our Story</h2>
       <p className="text-slate-700 my-2">
         Fox Estate was founded with a clear vision: to revolutionize the way you
         interact with the real estate market. We understand that buying or
@@ -32,7 +32,7 @@ export default function About() {
         innovation and exceptional service in the world of online property
         marketplaces.
       </p>
-      <h2 className="text-slate-800 text-2xl font-semibold ">Our Mission</h2>
+      <h2 className="text-slate-800 text-2xl font-semibold mt-6">Our Mission</h2>
       <p className="text-slate-700 my-2">
         At Fox Estate, we are committed to making your real estate experience
         smooth and hassle-free. Our mission is to:
@@ -65,7 +65,7 @@ export default function About() {
           tailored as possible.
         </li>
       </ol>
-      <h2 className="text-slate-800 text-2xl font-semibold ">Why Choose Fox Estate?</h2>
+      <h2 className="text-slate-800 text-2xl font-semibold mt-6">Why Choose Fox Estate?</h2>
       <ul>
         <li className="text-slate-700 my-4 list-disc">
           <span className="font-bold">Comprehensive Listings:</span> We offer an
@@ -92,7 +92,7 @@ export default function About() {
           individuals.
         </li>
       </ul>
-      <h2 className="text-slate-800 text-2xl font-semibold ">Get Started Today</h2>
+      <h2 className="text-slate-800 text-2xl font-semibold mt-6">Get Started Today</h2>
       <p className="text-slate-700 my-4">
         No matter where you are on your real estate journey, Fox Estate is here
         to help you achieve your goals. We invite you to explore our platform,
@@ -100,7 +100,7 @@ export default function About() {
         Together, we'll turn your real estate dreams into reality.
         <br />
       </p>
-        <p className="text-slate-800 text-2xl font-semibold ">Welcome to <span className="font-bold text-slate-500">Fox Estate</span> – Your Premier Online Property Marketplace.</p>
+        <p className="text-slate-800 text-2xl font-semibold mt-6">Welcome to <span className="font-bold text-slate-500">Fox Estate</span> – Your Premier Online Property Marketplace.</p>
     </div>
   );
 }
