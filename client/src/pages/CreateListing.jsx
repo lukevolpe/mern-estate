@@ -52,6 +52,7 @@ export default function CreateListing() {
         })
         .catch((err) => {
           setImageUploadError("Image upload failed (2 MB max per image)");
+          setUploading(false);
         });
     } else {
       setImageUploadError("You can only upload 6 images per listing");
@@ -281,7 +282,6 @@ export default function CreateListing() {
               />
               <div className="flex flex-col items-center">
                 <p>Regular Price</p>
-                <span className="text-xs">($ / month)</span>
                 {formData.type === "rent" && (
                   <span className="text-xs">($ / month)</span>
                 )}
@@ -301,7 +301,6 @@ export default function CreateListing() {
                 />
                 <div className="flex flex-col items-center">
                   <p>Discounted Price</p>
-                  <span className="text-xs">($ / month)</span>
                   {formData.type === "rent" && (
                     <span className="text-xs">($ / month)</span>
                   )}
